@@ -1,0 +1,239 @@
+﻿<Window x:Class="WpfApp15m.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15m"
+        mc:Ignorable="d"
+        Title="Дети" Height="770" Width="600" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Image Source="Data\1.png" Stretch="UniformToFill" RenderOptions.BitmapScalingMode="HighQuality" Opacity="0.75"/>
+        <FlowDocumentReader x:Name="docFDR" Style="{StaticResource flowDocumentReader}" Height="719" VerticalAlignment="Top" Background="#FFADEA83">
+            <FlowDocument Style="{StaticResource flowDocument}">
+                <Paragraph Style="{StaticResource paragraphParent}">
+                    <Bold>
+                        <Hyperlink NavigateUri="https://rustih.ru/moi-deti-moi-krylya-za-spinoj/">Мои Дети</Hyperlink>
+                    </Bold>
+                </Paragraph>
+                <Section Style="{StaticResource section}">
+                    <Paragraph>
+                        <Bold>Мои дети</Bold>
+                        <Italic>у меня два замечательных ребёнка</Italic> -старший сын Крючков Артемий Максимович, ему 9 лет, он учится в 3 "В" классе Лицея
+                        33; младшая дочка Миронова Алена Ильинична, ей всего годик.
+                    </Paragraph>
+
+                    <Paragraph>
+                        Мои дети мои крылья за спиной: Стих
+                        <Floater Style="{StaticResource floater}">
+                            <BlockUIContainer>
+                                <Image Source="Data\2.jpg" Style="{StaticResource image}"/>
+                            </BlockUIContainer>
+                            <BlockUIContainer>
+                                <TextBlock Text="Миронова Олеся Юрьевна и дети" 
+                                           Style="{StaticResource txtBlock}"/>
+                            </BlockUIContainer>
+                        </Floater>
+                    </Paragraph>
+                    <List Style="{StaticResource list}">
+                        <ListItem>
+                            <Paragraph>
+                                Мои дети — мои крылья за спиной! 
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Мои дети — мои звезды над землей!
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Мои дети — моё счастье навсегда!
+                            </Paragraph>
+                        </ListItem> <ListItem>
+                            <Paragraph>
+                                Мои дети — и богатство, и года!
+                            </Paragraph>
+                        </ListItem> <ListItem>
+                            <Paragraph>
+                                Мои дети — продолжение моё!
+                            </Paragraph>
+                        </ListItem> 
+                        <ListItem>
+                            <Paragraph>
+                                Мои дети — то, что Богом мне дано!
+                            </Paragraph>
+                        </ListItem>
+                        <ListItem>
+                            <Paragraph>
+                                Мои дети — посвящаю жизнь вам я!
+                            </Paragraph>
+                        </ListItem>
+                        
+                    </List>
+
+                    <Paragraph>
+                        <Underline>
+                            <Italic>Мои дети — моя радость, моё Я!</Italic>
+                        </Underline>
+                    </Paragraph>
+                    <Paragraph>
+                        <Bold>
+                            <Italic>Я считаю, что троки этого стихотворения абсолютно точно передают образ детей для своих матерей. 
+                                Ведь наши дети дают нам новый смысл жизни, новые силы жить и двигаться по жизни. 
+                                Они нас направляют и учат. Именно дети дают нам безусловную, самую чистую и истинную любовь. 
+                                Именно благодаря им  мы общаемся и верим в Бога, и в себя</Italic>
+                        </Bold> 
+                    </Paragraph>
+                    
+                </Section>
+                <Paragraph Style="{StaticResource paragraphParent}" FontFamily="Italic">
+                    <Run Background="#FFE9F312" Foreground="Blue">
+                        Интересные факты о детях</Run>
+                </Paragraph>
+                <List Style="{StaticResource list}">
+
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Мои дети родились на Дальнем востоке</Italic> В городе Комсомольске - на - Амуре. В Родильном доме номер N7
+                            <Run Background="#FF8CABA7">Артем - 08.10.2012года, Алёна - 01.02.2021 года</Run> , обо родились в холодное время года, когда за окнами есть снег;
+                            <LineBreak/>
+                            <Floater Style="{StaticResource floater}">
+                                <BlockUIContainer>
+                                    <Image Source="Data\3.jpg" Width="150" Height="200" Style="{StaticResource image}"/>
+                                </BlockUIContainer>
+                                <BlockUIContainer>
+                                    <TextBlock Text="Артём и Алёна" 
+                                               Style="{StaticResource txtBlock}"/>
+                                </BlockUIContainer>
+                            </Floater>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Артём, мой первенец. Желанный идеальный мужчина, которого я родила в этот мир.</Italic> Мой защитник
+                            <Run Background="#FF8CABA7">Я очень мечтала о сыне и Бог улышал мои желания, первым я родила прекрасного мальчика.</Run>  Он родился как одивунчик, беленький, пушистый и очень красивый;
+                            <LineBreak/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Алёна, моя принцесса! Теперь и очередь лапочки дочки)</Italic> Дочу ждали все родные. Она любимица. Маленькая смышлённая звездочка;
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Конечно для каждой мамы свои дети самые лучшие и самые кпасивые</Italic> Я благодарно всем Богам, что у меня получились именно такие дети. Они лучшие для меня. Когда они радуются, радуюсь я! Когда они плачут, я плачу с ними. Ведь они, это часть меня;
+                            <LineBreak/>
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            <Italic>Владывая всю любовь в своих детей,  все силы, это лучшие инвестиции в этот мир!</Italic> Занимаясь развитием своих чад, получаешь огромное удовольствие видеть плоды своих стараний, смысла своего существования.
+                            <LineBreak/>
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph Style="{StaticResource paragraphParent}" FontFamily="Italic">
+                    <Run Background="#FFF3E906" Foreground="#008500">
+                        Значения имён</Run>
+                </Paragraph>
+
+                <Section Style="{StaticResource section}">
+
+                    <Table Style="{StaticResource table}">
+                        <Table.Columns>
+                            <TableColumn Width="110"/>
+                            <TableColumn Width="110"/>
+                            <TableColumn/>
+                        </Table.Columns>
+                        <TableRowGroup>
+                            <TableRow FontSize="12">
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">
+                                        <Bold>Имя</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">
+                                        <Bold>Пол ребенка</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">
+                                        <Bold>Значение имени</Bold>
+                                    </Paragraph>
+                                </TableCell>
+                            </TableRow>
+
+                            <TableRow FontSize="12">
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">
+                                        <Italic>Артём</Italic>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">муж</Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Left" Margin="1">Происхождение греческое Род мужской. Этимологическое значение «здоровый, целый, невредимый». Отчество Артёмович Артёмовна Женское парное имя Артемида, Артемия Другие формы Артемий Производ. формы. Артемьюшка, Артя, Артюня, Тюня, Артюха, Артюша, Тюша, Артёмка, Артёмчик, Тёма, Артёша Иноязычные аналоги англ. Artyom, Artem белор.</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                            <TableRow FontSize="12">
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">
+                                        <Italic>Алёна</Italic>
+                                    </Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Center">жен</Paragraph>
+                                </TableCell>
+                                <TableCell Style="{StaticResource tableCell}">
+                                    <Paragraph TextAlignment="Left" Margin="1">Считается, что имя Алена является старославянским именем и переводится как «огненная», «алая», «избранная». В переводе с греческого означает «солнечная» либо «факел». 
+                                        Переводится с еврейского языка как «дуб». С владелицами данного имени приятно и легко общаться, они открытые и искренние, внимательно выслушивают собеседника, не откажут в помощи. Характер имени Алена. 
+                                        Характером Аленушка похожа на отца – эмоциональная и категоричная.</Paragraph>
+                                </TableCell>
+                            </TableRow>
+                        </TableRowGroup>
+                    </Table>
+                </Section>
+                <Section Style="{StaticResource section}">
+                    <Paragraph Style="{StaticResource paragraphParent}" FontFamily="Italic">
+                        <Run Background="#FFCAF30E" Foreground="Green">Фото моих детей</Run>
+                    </Paragraph>
+                    <BlockUIContainer>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition/>
+                                <ColumnDefinition/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+
+
+                            </Grid.RowDefinitions>
+                            <Image Source="Data/4.jpg" Style="{StaticResource image}" Grid.Column="0" Grid.Row="0"/>
+                            <TextBlock Text="Артём Максимович" Style="{StaticResource txtBlock}" Grid.Column="0" Grid.Row="1"/>
+                            <Image Source="Data/5.jpg" Style="{StaticResource image}" Grid.Column="1" Grid.Row="0"/>
+                            <TextBlock Text="Алёна Ильинична'" Style="{StaticResource txtBlock}" Grid.Column="1" Grid.Row="1"/>
+
+                        </Grid>
+                    </BlockUIContainer>
+                </Section>
+
+
+
+            </FlowDocument>
+
+        </FlowDocumentReader>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Background="#FFD600">
+            <Button Content="Открыть" Style="{StaticResource button}" Click="Button_Click_2" Background="#FFE2EBB8"/>
+            <Button Content="Сохранить" Style="{StaticResource button}" Click="Button_Click_1" Background="#FFEBE6B8" />
+           </StackPanel>
+
+    </Grid>
+</Window>
